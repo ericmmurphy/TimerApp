@@ -87,7 +87,6 @@ public class TimerUI implements ActionListener, MouseListener {
 	}
 	
 	public void addTimer() {
-		//int timerHeight = 90;
 		Timer timer = new Timer();
 		timer.mainPanel.setBounds(0, (this.timers.size()) * timerHeight, 260, timerHeight);
 		this.timers.add(timer);
